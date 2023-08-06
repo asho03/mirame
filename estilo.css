@@ -1,0 +1,287 @@
+body {
+    background-color: rgb(255, 255, 255);
+    max-width: 1200px;
+    margin: 0 auto; 
+    align-items: center;
+    align-content: center;
+}
+
+@font-face {
+    font-family: "RadioGrotesk-Regular";
+    src: url("Font/PPRadioGrotesk-Regular.otf");
+}
+@font-face {
+    font-family: "RadioGrotesk-Bold";
+    src: url("Font/PPRadioGrotesk-Black.otf");
+}
+@font-face {
+    font-family: "Montserrat";
+    src: url("Font/Montserrat-VariableFont_wght.ttf");
+}
+@font-face {
+    font-family: "Registra";
+    src: url("Font/Regista\ Grande\ Italic.otf");
+}
+p{
+    font-family: "Montserrat";
+    font-size: 14pt;
+}
+h3{
+    font-family: "RadioGrotesk-Bold";
+    font-size: 17pt;
+    font-weight: 300;
+}
+h2{
+    font-family: "Registra";
+    font-size: 20pt;
+    font-weight: 900;
+}
+#cabecera{
+    width: 1200px;
+    text-align: center;
+    background-color: white;
+    position: fixed;
+    padding: 20px 10px;
+}
+#cabecera header{
+    float: left;
+    margin-left: 95px;
+}
+nav{
+    float: right;
+}
+nav ul li {
+    display: inline-block;
+    margin-left: 15px;
+
+}
+nav ul li a{
+    text-decoration: none;
+    margin-right: 15px;
+    color: #F06956;
+    font-family: "RadioGrotesk-Bold";
+    text-align: center;
+}
+nav ul li :hover{
+    color:#FF8EBC;
+}
+#Banner {
+    width: 1200px;
+    padding-top: 60px;
+}
+#cajauno{
+    text-align: center;
+    margin-top: -100px;
+    margin-left: 30px;
+}
+#cajauno img{
+    display: inline-block;
+    margin: 0 20px;
+    transition: transform 0.3s;
+}
+#cajauno img:hover{
+    transform:scale(1.1);
+}
+#slm-texto mark{
+    color: black;
+    background-color: #FFB84C;
+}
+.sobrelaame{
+    padding: 30px;
+    margin: 50px;
+}
+#slm-texto{
+    width: 300px;
+    float: left;
+    margin-left: 100px;
+    padding-top: 40px;
+}
+#slm-foto{
+    float: right;
+    margin-left: 100px;
+
+}
+#slm-foto img{
+    border-radius: 100%;
+    background-image: url('img/foto1.png');
+    background-size: cover;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+}
+#separador img{
+   padding-top: 75px;
+   padding-left: 45px;
+}
+.sintomas {
+    height: 450px;
+    margin: 20px;
+    padding: 50px;
+}
+#sintomas-foto img{
+    border-radius: 100%;
+    float: left;
+    background-image: url('img/sintomas.png');
+    background-size: cover;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+    transition: box-shadow 0.3s ease;
+}
+#sintomas-foto img:hover{
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5);
+}
+#sintomas-texto {
+    width: 400px;
+    padding: 20px;
+    float: right;
+}
+ul{
+    font-family: "Montserrat"
+}
+.FORO{
+background-color: #FFB84C;
+padding-top: 50px;
+padding-left: 30px;
+padding-right: 30px;
+margin: 60px 0px;
+height: 700px;
+}
+#testimonios {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; /* Align items at the top */
+    margin: 30px 20px;
+}
+#botones{
+    float: right;
+    margin-top: 30px;
+    transition: transform 0.3s;
+    margin-right: 20px;
+}
+#botones:hover{
+    transform:scale(1.1);
+}
+.boton{
+    padding: 10px 20px;
+    border: 2px solid black;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    font-family: "RadioGrotesk-Bold";
+}
+#user1 {
+     width:300px;
+     height:400px;
+     background-color:#71C6B8;
+     padding: 20px;
+     border: 3px solid black;
+     transition: transform 0.3s ease; 
+}    
+#user1:hover{
+    transform: translateY(-10px);
+}
+#user2 {
+            width:300px;
+            height:400px;
+            background-color: #FF8EBC;
+            padding: 20px;
+            border: 3px solid black;
+            transition: transform 0.3s ease; 
+}
+#user2:hover{
+    transform: translateY(-10px);
+}
+#user3 {
+            width:300px;
+            height:400px;
+            background-color: #F06956;
+            padding: 20px;
+            border: 3px solid black;
+            transition: transform 0.3s ease; 
+}
+#user3:hover{
+    transform: translateY(-10px);
+}
+.Portal{
+    margin: 30px 0px;
+    height: 450px;
+}
+
+#Portal-foto{
+    display: flex;
+    float: right;
+    margin-right: 100px;
+}
+
+#Portal-foto img{
+    transition: transform 0.3s;
+    border-radius: 100%;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+}
+#Portal-foto img:hover{
+    transform:scale(1.1);
+    border-color: black;
+}
+#portalenseñame{
+    width: 300px;
+    height: 350px;
+    float: left;
+    padding: 20px;
+    margin-left: 150px;
+    color: white;
+    background-color:#2C62BF;
+    border: 4px solid black ;
+}
+#portalenseñame p{
+    margin: 40px 0px;
+}
+#portalenseñame h2{
+    margin-top: 20px;
+}
+#libro{
+    background-color: #FF8EBC;
+    width: 100%;
+    height: 550px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+#textolibro{
+    width: 480px;
+    padding: 30px;
+    float: left;
+    margin-left: 35px;
+}
+mark{
+    background-color: #2C62BF;
+    color: white;
+}
+#fotolibro {
+    float: right;
+    margin-right: 35px;
+}
+#fotolibro img{
+    transition: transform 0.3s;
+}
+#fotolibro img:hover{
+transform:scale(1.1);
+}
+footer{
+    position: static;
+    background-color: #FFB84C;
+    color: white;
+    text-align: centro;
+    padding: 40px;
+    height: 130px;
+}
+#contacto{
+float: left;
+}
+.redes a img{
+    float: right;
+    display: bloque;
+    width: 50px;
+    height: auto;
+    margin: 0 auto;
+    padding: 10px;
+    transition: transform 0.3s;
+}
+.redes a img:hover{
+    transform:scale(1.1);
+}
